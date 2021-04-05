@@ -59,6 +59,8 @@ namespace BitIR {
 
     //% weight=5
     //% blockId=IR_KeyValue block="IR_KeyValue|value %value"
+    //% value.fieldEditor="gridpicker"
+    //% value.fieldOptions.columns=3
     export function IR_KeyValue(value: enIRButton): number {
         return value;
     }
