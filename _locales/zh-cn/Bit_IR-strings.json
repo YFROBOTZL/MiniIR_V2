@@ -1,0 +1,8 @@
+{
+    "Bit_IR.ir_init|block": "连接红外接收器到引脚 %pin",
+    "Bit_IR.ir_received_left_event|block": "当按钮 |%btn| 被按下时",
+
+    "BitIR.IR_readV2|block": "红外的值",
+    "BitIR.IR_callbackUserV2|block": "当接收到红外时运行(V2)",
+    "BitIR.IR_KeyValue|block": "红外键值|%value"
+}
