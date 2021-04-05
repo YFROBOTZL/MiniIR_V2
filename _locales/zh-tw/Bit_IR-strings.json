@@ -1,9 +1,0 @@
-{
-
-    "Mbit_IR.init|block": "連接紅外接收器到引腳 %pin",
-    "Mbit_IR.onPressEvent|block": "當按鈕 |%btn| 被按下時",
-
-    "MbitIR.IR_readV2|block": "紅外的值",
-    "MbitIR.IR_callbackUserV2|block": "當接收到紅外時運行(V2)",
-    "MbitIR.IR_KeyValue|block": "紅外鍵值|%value"
-}

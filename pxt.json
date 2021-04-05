@@ -9,12 +9,12 @@
     "files": [
         "BitIR.ts",
         "enums.d.ts",
-        "Bit_IR.cpp",
+        "BitIR.cpp",
         "ReceiverIR.cpp",
         "ReceiverIR.h",
         "RemoteIR.h",
-        "_locales/zh-cn/Bit_IR-strings.json",
-        "_locales/zh-tw/Bit_IR-strings.json",
+        "_locales/zh-cn/BitIR-strings.json",
+        "_locales/zh-tw/BitIR-strings.json",
         "shims.d.ts",
         "README.md"
     ],

@@ -1,0 +1,5 @@
+{
+    "BitIR.IR_readV2|block": "紅外的值",
+    "BitIR.IR_callbackUserV2|block": "當接收到紅外時運行(V2)",
+    "BitIR.IR_KeyValue|block": "紅外鍵值|%value"
+}

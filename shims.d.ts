@@ -1,10 +1,10 @@
 // Auto-generated. Do not edit.
-declare namespace Bit_IR {
+declare namespace BitIR {
 
     /********************************************
-    Mini_IRV2
+    Mini_IRV2 test
      *********************************************/
-    //% shim=Bit_IR::irCode
+    //% shim=BitIR::irCode
     function irCode(): int32;
 }
 

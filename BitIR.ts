@@ -1,4 +1,4 @@
-//% weight=10 color=#008B00 icon="\uf1eb" block="Mini_IR_V2"
+//% weight=10 color=#7BD239 icon="\uf12e" block="IR_V2"
 namespace BitIR {
     
     let irstate:number;
@@ -52,7 +52,7 @@ namespace BitIR {
      /**
      * Read IR sensor value V2.
      */
-    //% advanced=true shim=Bit_IR::irCode
+    //% advanced=true shim=BitIR::irCode
     function irCode(): number {
         return 0;
     }
@@ -62,12 +62,14 @@ namespace BitIR {
     //% value.fieldEditor="gridpicker"
     //% value.fieldOptions.columns=3
     export function IR_KeyValue(value: enIRButton): number {
+        led.enable(false);
         return value;
     }
 
     //% weight=5
     //% blockId=IR_readV2 block="read IR key value"
     export function IR_readV2(): number {
+        led.enable(false);
         return valuotokeyConversion();
     }
 
@@ -75,6 +77,7 @@ namespace BitIR {
     //% blockId=IR_callbackUserV2 block="on IR received"
     //% draggableParameters
     export function IR_callbackUserV2(cb: (message: number) => void) {
+        led.enable(false);
         state = 1;
         control.onEvent(11, 22, function() {
             cb(irstate);
