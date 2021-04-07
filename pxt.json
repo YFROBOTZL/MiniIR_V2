@@ -4,8 +4,7 @@
     "description": "Extension for Mini IR Receive Module",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "valon": "github:yfrobot-tm/pxt-yfrobot-valon#V1.1.6"
+        "core": "*"
     },
     "files": [
         "BitIR.ts",
