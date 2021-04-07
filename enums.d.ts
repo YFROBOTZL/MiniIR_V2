@@ -1,11 +1,6 @@
 // Auto-generated. Do not edit.
 
 
-    /**
-     * Mini_IR (Version 2.0.0)
-     * Copyright (C) 2020 YFROBOT
-     */
-
     declare const enum Pins {
     P0 = 3,
     P1 = 2,

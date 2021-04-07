@@ -87,27 +87,27 @@ namespace BitIR {
     function valuotokeyConversion():number{
         let irdata:number;
         switch(irCode()){
-        case 0xba45:irdata = 0;break;
-        case 0xb946:irdata = 1;break;
-        case 0xb847:irdata = 2;break;
-        case 0xbb44:irdata = 3;break;
-        case 0xbc43:irdata = 4;break;
-        case 0xf20d:irdata = 5;break;
-        case 0xbf40:irdata = 6;break;
-        case 0xe619:irdata = 7;break;
-        case 0xf807:irdata = 8;break;
-        case 0xea15:irdata = 9;break;
-        case 0xf609:irdata = 10;break;
-        case 0xe916:irdata = 11;break;
-        case 0xf30c:irdata = 12;break;
-        case 0xe718:irdata = 13;break;
-        case 0xa15e:irdata = 14;break;
-        case 0xf708:irdata = 15;break;
-        case 0xe31c:irdata = 16;break;
-        case 0xa55a:irdata = 17;break;
-        case 0xbd42:irdata = 18;break;
-        case 0xad52:irdata = 19;break;
-        case 0xb54a:irdata = 20;break;
+            case 0xba45:irdata = 0;break;
+            case 0xb946:irdata = 1;break;
+            case 0xb847:irdata = 2;break;
+            case 0xbb44:irdata = 3;break;
+            case 0xbc43:irdata = 4;break;
+            case 0xf20d:irdata = 5;break;
+            case 0xbf40:irdata = 6;break;
+            case 0xe619:irdata = 7;break;
+            case 0xf807:irdata = 8;break;
+            case 0xea15:irdata = 9;break;
+            case 0xf609:irdata = 10;break;
+            case 0xe916:irdata = 11;break;
+            case 0xf30c:irdata = 12;break;
+            case 0xe718:irdata = 13;break;
+            case 0xa15e:irdata = 14;break;
+            case 0xf708:irdata = 15;break;
+            case 0xe31c:irdata = 16;break;
+            case 0xa55a:irdata = 17;break;
+            case 0xbd42:irdata = 18;break;
+            case 0xad52:irdata = 19;break;
+            case 0xb54a:irdata = 20;break;
             default:
              irdata = -1;
         }

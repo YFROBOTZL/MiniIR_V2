@@ -1,8 +1,3 @@
-/**
- * Mini_IR (Version 2.0.0)
- * Copyright (C) 2020 YFROBOT
- */
-
 #include "pxt.h"
 #include <map>
 #include <vector>
@@ -87,10 +82,10 @@ namespace BitIR {
 
     void monitorIR(){
         while(1){
-        while(rx->getState() != ReceiverIR::Received){
-            uBit.sleep(50);
-        }
-        onReceivable();
+            while(rx->getState() != ReceiverIR::Received){
+                uBit.sleep(50);
+            }
+            onReceivable();
         }
     }
 

@@ -1,4 +1,5 @@
-// Add your code here
 BitIR.IR_callbackUserV2(function(message: number) {
-    serial.writeString(""+ message)
+    
+    serial.writeLine(""+BitIR.IR_readV2())
+    serial.writeLine(""+message)
 })
