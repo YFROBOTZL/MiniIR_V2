@@ -93,9 +93,9 @@ namespace BitIR {
             case 0xbb44:irdata = 3;break;
             case 0xbc43:irdata = 4;break;
             case 0xf20d:irdata = 5;break;
-            case 0xbf40:irdata = 6;break;
+            case 0xbf40:irdata = 8;break;
             case 0xe619:irdata = 7;break;
-            case 0xf807:irdata = 8;break;
+            case 0xf807:irdata = 6;break;
             case 0xea15:irdata = 9;break;
             case 0xf609:irdata = 10;break;
             case 0xe916:irdata = 11;break;
