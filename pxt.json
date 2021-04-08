@@ -1,7 +1,7 @@
 {
     "name": "Mini_IR",
-    "version": "2.0.1",
-    "description": "Extension for Mini IR Receive Module",
+    "version": "2.0.3",
+    "description": "MicroBit V2 - Extension for Mini IR Receive Module",
     "license": "MIT",
     "dependencies": {
         "core": "*"
@@ -14,7 +14,6 @@
         "ReceiverIR.h",
         "RemoteIR.h",
         "_locales/zh-cn/BitIR-strings.json",
-        "_locales/zh-tw/BitIR-strings.json",
         "shims.d.ts",
         "README.md"
     ],

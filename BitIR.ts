@@ -6,47 +6,47 @@ namespace BitIR {
     
     export enum enIRButton {
       //% blockId="MINIIR_A" block="A"
-      CH_MINUS = 0x00,
+      MINIIR_A = 0x00,
       //% blockId="MINIIR_B" block="B"
-	  CH = 0x01,
+	  MINIIR_B = 0x01,
       //% blockId="MINIIR_C" block="C"
-	  CH_Add = 0x02,
+	  MINIIR_C = 0x02,
       //% blockId="MINIIR_D" block="D"
-	  PREV = 0x03,
+	  MINIIR_D = 0x03,
       //% blockId="MINIIR_up" block="︿"
-	  PLAY = 0x04,
+	  MINIIR_up = 0x04,
       //% blockId="MINIIR_E" block="E"
-	  NUM_200 = 0x05,
+	  MINIIR_E = 0x05,
       //% blockId="MINIIR_left" block="＜"
-	  NEXT = 0x06,
+	  MINIIR_left = 0x06,
       //% blockId="MINIIR_set" block="۞"
-	  NUM_100 = 0x07,
+	  MINIIR_set = 0x07,
       //% blockId="MINIIR_right" block="＞"
-	  Minus = 0x08,
+	  MINIIR_right = 0x08,
       //% blockId="MINIIR_NUM0" block="0"
-	  Add = 0x09,
+	  MINIIR_NUM0 = 0x09,
       //% blockId="MINIIR_down" block="﹀"
-	  EQ = 0x0a,
+	  MINIIR_down = 0x0a,
       //% blockId="MINIIR_F" block="F"
-	  NUM0 = 0x0b,
+	  MINIIR_F = 0x0b,
       //% blockId="MINIIR_NUM1" block="1"
-	  NUM1 = 0x0c,
+	  MINIIR_NUM1 = 0x0c,
       //% blockId="MINIIR_NUM2" block="2"
-	  NUM2 = 0x0d,
+	  MINIIR_NUM2 = 0x0d,
       //% blockId="MINIIR_NUM3" block="3"
-	  NUM3 = 0x0e,
+	  MINIIR_NUM3 = 0x0e,
       //% blockId="MINIIR_NUM4" block="4"
-	  NUM4 = 0x0f,
+	  MINIIR_NUM4 = 0x0f,
       //% blockId="MINIIR_NUM5" block="5"
-	  NUM5 = 0x10,
+	  MINIIR_NUM5 = 0x10,
       //% blockId="MINIIR_NUM6" block="6"
-	  NUM6 = 0x11,
+	  MINIIR_NUM6 = 0x11,
       //% blockId="MINIIR_NUM7" block="7"
-	  NUM7 = 0x12,
+	  MINIIR_NUM7 = 0x12,
       //% blockId="MINIIR_NUM8" block="8"
-	  NUM8 = 0x13,
+	  MINIIR_NUM8 = 0x13,
       //% blockId="MINIIR_NUM9" block="9"
-	  NUM9 = 0x14,
+	  MINIIR_NUM9 = 0x14,
     }
 
      /**
