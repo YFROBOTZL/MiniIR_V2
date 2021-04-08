@@ -4,7 +4,8 @@
     "description": "MicroBit V2 - Extension for Mini IR Receive Module",
     "license": "MIT",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "microphone": "*"
     },
     "files": [
         "BitIR.ts",
