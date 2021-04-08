@@ -66,9 +66,7 @@ namespace BitIR {
         return value;
     }
 
-    //% weight=5
-    //% blockId=IR_readV2 block="read IR key value"
-    export function IR_readV2(): number {
+    function IR_readV2(): number {
         led.enable(false);
         return valuotokeyConversion();
     }
